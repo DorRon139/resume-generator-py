@@ -3,7 +3,7 @@ import json
 from docx import Document
 from io import BytesIO
 from fastapi import APIRouter
-from ..schemas.build_json import BuildJsonIn, BuildJsonOut
+from ..schemas.api_schemas import BuildJsonIn, BuildJsonOut
 
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_ollama import OllamaLLM

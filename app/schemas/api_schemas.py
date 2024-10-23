@@ -40,6 +40,14 @@ class BuildJsonOut(BaseModel):
     success: bool
     base_user_info: BaseUserInfo
 
+class UpdateResumeContentIn(BaseModel):
+    job_description: str
+    base_user_info: BaseUserInfo
+
+class UpdateResumeContentOut(BaseModel):
+    updated_content: BaseUserInfo
+
+
 
 
 
